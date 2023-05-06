@@ -1,0 +1,41 @@
+.WhatNews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    overflow-y: hidden;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    .image-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 600px;
+        height: auto;
+        overflow-y: hidden;
+        img{
+            object-fit: contain;
+        }
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        width: 50%;
+        height:auto;
+        .news{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            color: #fff;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+    }
+}

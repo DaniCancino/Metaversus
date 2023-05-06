@@ -1,0 +1,40 @@
+.GetStarted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    overflow-y: hidden;
+    margin-top: 100px;
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 600px;
+        overflow-y: hidden;
+        img{
+            object-fit: contain;
+        }
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        width: 50%;
+        height: auto;
+        .features{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            color: #fff;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+    }
+}

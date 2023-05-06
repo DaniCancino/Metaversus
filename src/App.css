@@ -1,0 +1,62 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #1A232E;
+  background-blend-mode: color;
+  padding-bottom: 20px;
+}
+
+.first-gradient{
+  width: 30vw;
+  height: 20%;
+  position: absolute;
+  margin-right: 700px;
+  margin-top: 30px;
+  background: rgb(210,37,225);
+  background: linear-gradient(121deg, rgba(210,37,225,1) 0%, rgba(176,185,190,1) 48%, rgba(37,101,225,1) 100%);
+  filter: blur(125px);
+  z-index: 0;
+}
+
+
+
+
+.relative{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.second-gradient{
+  position: absolute;
+  width: 404px;
+  height: 800px;
+  left: 30%;
+  top: 5%;
+
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(175px);
+  transform: rotate(-114.2deg);
+}
+
+.fourth-gradient{
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 10%;
+  background: rgba(45, 72, 152, 0.35);
+  filter: blur(150px);
+  transform: rotate(-53.13deg);
+  z-index: 10;
+  overflow-y: hidden;
+}

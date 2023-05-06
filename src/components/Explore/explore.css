@@ -1,0 +1,205 @@
+.Explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: auto;
+  color: #fff;
+  overflow-y: hidden;
+}
+
+.Explore p, .Explore h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.Explore p {
+  color: #C7C7C7;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.Explore h1 {
+  font-size: 64px;
+}
+
+.Explore .image-explorer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.Explore .image-explorer-container .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  height: 400px;
+  border-radius: 20px;
+  overflow-y: hidden;
+}
+
+.Explore .image-explorer-container .active img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Explore .image-explorer-container .active .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow-y: hidden;
+  padding: 15px 0;
+  margin-top: 220px;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.Explore .image-explorer-container .active .info-container .headset-container {
+  width: 15%;
+  height: 15%;
+}
+
+.Explore .image-explorer-container .active .info-container .headset-container .headset {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Explore .image-explorer-container .active .info-container p {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Explore .image-explorer-container .active .info-container .title {
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+}
+
+.Explore .image-explorer-container .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 400px;
+  border-radius: 20px;
+  overflow-y: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.Explore .image-explorer-container .image-container .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow-y: hidden;
+}
+
+.Explore .image-explorer-container .image-container .info-container .headset-container {
+  display: none;
+}
+
+.Explore .image-explorer-container .image-container .info-container p {
+  display: none;
+}
+
+.Explore .image-explorer-container .image-container .info-container h3 {
+  width: 100%;
+  height: 100%;
+  rotate: -90deg;
+  z-index: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Explore .image-explorer-container .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Explore .image-explorer-container .image-container .headset {
+  display: none;
+}
+
+.Explore .image-explorer-container .image-container p {
+  display: none;
+}
+
+.Explore .image-explorer-container .image-container:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+/*# sourceMappingURL=explore.css.map */
