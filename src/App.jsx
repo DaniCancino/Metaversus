@@ -1,6 +1,8 @@
 import './App.css'
 import About from './components/About/about'
 import Explore from './components/Explore/explore'
+import Feedback from './components/Feedback/Feedback'
+import Footer from './components/Footer/Footer'
 import GetStarted from './components/GetStarted/getStarted'
 import Hero from './components/Hero/hero'
 import Insights from './components/Insights/Insights'
@@ -30,7 +32,9 @@ function App() {
       <div className='relative'>
         <Insights />
         <div className='fourth-gradient' />
+        <Feedback />
       </div>
+      <Footer />
     </div>
   )
 }
