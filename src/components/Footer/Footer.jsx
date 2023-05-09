@@ -11,15 +11,18 @@ import linkedin from '../../assets/linkedin.svg'
 const socials = [
     {
         name: 'twitter',
-        url: twitter
+        img: twitter,
+        url: 'https://twitter.com/ziete_77'
     },
     {
         name: 'instagram',
-        url: instagram
+        img: instagram,
+        url:'https://www.instagram.com/thecancino/'
     },
     {
         name: 'linkedin',
-        url: linkedin
+        img: linkedin,
+        url:'https://www.linkedin.com/in/danicancino-dev/'
     }
 ]
 
@@ -31,7 +34,6 @@ const Footer = () =>{
             initial="hidden"
             whileInView="show"
         >
-            <div className='footer-gradient' />
             <div className='upper'>
                 <h4>
                     Enter the Metaverse
@@ -58,7 +60,15 @@ const Footer = () =>{
                     <div className='socials'>
                         {
                             socials.map((el, index) =>(
-                                <img src={el.url} alt={el.name} key ={index}/>
+                                <a 
+                                    key ={index}
+                                    href={el.url}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className='socials-link'
+                                >
+                                    <img src={el.img} alt={el.name} />
+                                </a>
                             ))
                         }
                     </div>

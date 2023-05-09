@@ -28,17 +28,26 @@ const World = () =>{
             >
                 <img src={map} alt='map' className='map'/>
 
-                <div className='people-one'>
+                <motion.div 
+                    className='people-one'
+                    variants={fadeIn('down', 'spring', 2.5, 1)}
+                >
                     <img src={people1} alt='people1' />
-                </div>
+                </motion.div>
 
-                <div className='people-two'>
+                <motion.div 
+                    className='people-two'
+                    variants={fadeIn('down', 'spring', 2, 1)}
+                >
                     <img src={people2} alt='people2' />
-                </div>
+                </motion.div>
 
-                <div className='people-three'>
+                <motion.div 
+                    className='people-three'
+                    variants={fadeIn('down', 'spring', 1, 1)}
+                >
                     <img src={people3} alt='people3' />
-                </div>
+                </motion.div>
                 
             </motion.div>
 

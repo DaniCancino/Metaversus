@@ -34,7 +34,10 @@ function App() {
         <div className='fourth-gradient' />
         <Feedback />
       </div>
-      <Footer />
+      <div className='relative'>
+        <Footer />
+        <div className='footer-gradient' />
+      </div>
     </div>
   )
 }

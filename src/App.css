@@ -7,7 +7,6 @@
   height: auto;
   background-color: #1A232E;
   background-blend-mode: color;
-  padding-bottom: 20px;
 }
 
 .first-gradient{
@@ -59,4 +58,14 @@
   transform: rotate(-53.13deg);
   z-index: 10;
   overflow-y: hidden;
+}
+
+.footer-gradient{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 5%;
+  bottom: 0;
+  background: #65c4fa;
+  filter: blur(150px);
 }
